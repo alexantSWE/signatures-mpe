@@ -115,4 +115,47 @@
     { "category": "Infrastructure", "name": "Vite", "globals": ["__vite_is_modern_browser"], "selectors": ["script[src*=\"@vite/client\"]"] },
     { "category": "Payments", "name": "Stripe", "globals": ["Stripe"] },
     { "category": "Payments", "name": "PayPal", "globals": ["paypal"] }
+[
+    { "category": "Framework", "name": "Mithril", "globals": ["m"] },
+    { "category": "Framework", "name": "Stencil.js", "selectors": ["[class*='hydrated']"] },
+    { "category": "Framework", "name": "Hugo", "selectors": ["meta[name=\"generator\"][content*=\"Hugo\"]"] },
+    { "category": "Framework", "name": "Jekyll", "selectors": ["meta[name=\"generator\"][content*=\"Jekyll\"]"] },
+    { "category": "Framework", "name": "Eleventy", "selectors": ["meta[name=\"generator\"][content*=\"Eleventy\"]"] },
+
+    { "category": "CMS & Commerce", "name": "Framer", "selectors": ["meta[name=\"generator\"][content*=\"Framer\"]", "div[id^=\"__framer-onload\"]"] },
+    { "category": "CMS & Commerce", "name": "Drupal", "globals": ["Drupal"], "selectors": ["meta[name=\"generator\"][content*=\"Drupal\"]"] },
+    { "category": "CMS & Commerce", "name": "Joomla", "selectors": ["meta[name=\"generator\"][content*=\"Joomla\"]"] },
+    { "category": "CMS & Commerce", "name": "BigCommerce", "globals": ["BCApp", "Stencil"], "selectors": ["link[href*=\"bigcommerce\"]"] },
+
+    { "category": "Analytics", "name": "Microsoft Clarity", "globals": ["clarity"] },
+    { "category": "Analytics", "name": "Amplitude", "globals": ["amplitude"] },
+    { "category": "Analytics", "name": "Segment", "globals": ["analytics"] },
+    { "category": "Analytics", "name": "Matomo", "globals": ["Matomo", "_paq"] },
+    { "category": "Analytics", "name": "Umami", "globals": ["umami", "umamiConfig"], "selectors": ["script[src*=\"umami.js\"]", "script[data-website-id]"] },
+    { "category": "Analytics", "name": "Klaviyo", "globals": ["klaviyo", "_learnq"] },
+
+    { "category": "Ads & Pixels", "name": "LinkedIn Insight Tag", "globals": ["_linkedin_data_partner_ids", "_linkedin_partner_id"] },
+    { "category": "Ads & Pixels", "name": "Pinterest Tag", "globals": ["pintrk"] },
+    { "category": "Ads & Pixels", "name": "Reddit Pixel", "globals": ["rdt"] },
+    { "category": "Ads & Pixels", "name": "Snapchat Pixel", "globals": ["snaptr"] },
+
+    { "category": "Chat & Support", "name": "Crisp", "globals": ["$crisp"] },
+    { "category": "Chat & Support", "name": "Tawk.to", "globals": ["Tawk_API"] },
+    { "category": "Chat & Support", "name": "Drift", "globals": ["drift"] },
+
+    { "category": "Video", "name": "JW Player", "globals": ["jwplayer"] },
+    { "category": "Video", "name": "Wistia", "globals": ["Wistia", "_wq"] },
+
+    { "category": "Styling", "name": "Chakra UI", "selectors": ["[class*=\"chakra-\"]", "[id^=\"chakra-\"]"] },
+    { "category": "Styling", "name": "Semantic UI", "selectors": ["link[href*=\"semantic\"]", "[class*=\"ui button\"]"] },
+    { "category": "Styling", "name": "Foundation", "globals": ["Foundation"], "selectors": ["link[href*=\"foundation\"]"] },
+
+    { "category": "Web3", "name": "RainbowKit", "selectors": ["[data-rk]"] },
+    { "category": "Web3", "name": "Moralis", "globals": ["Moralis"] },
+
+    { "category": "Library", "name": "Swiper", "globals": ["Swiper"], "selectors": ["link[href*=\"swiper\"]", "[class*=\"swiper-\"]"] },
+    { "category": "Library", "name": "AOS", "globals": ["AOS"], "selectors": ["[data-aos]"] },
+    { "category": "Library", "name": "Slick Carousel", "selectors": ["[class*=\"slick-\"]"] },
+    { "category": "Library", "name": "Tippy.js", "globals": ["tippy"] },
+    { "category": "Library", "name": "Popper.js", "globals": ["Popper"] }
 ]
